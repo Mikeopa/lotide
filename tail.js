@@ -1,11 +1,6 @@
-const assertEqual = require('./assertEqual');
-
 const tail = function(array) {
-  const tailArray = [];
-  for (let item = 1; item < array.length; item++) {
-    tailArray.push(array[item]);
-  }
-  return tailArray;
+  const tail = array.slice(1);
+  return tail;
 };
 
 module.exports = tail;
