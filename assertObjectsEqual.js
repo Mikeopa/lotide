@@ -1,3 +1,5 @@
+const { METHODS } = require('http');
+
 const eqArrays = function(array1, array2) {
   if (array1.length !== array2.length) {
     return false;
@@ -64,3 +66,5 @@ const person3 = {
 
 assertObjectsEqual(person1, person2);
 assertObjectsEqual(person1, person3);
+
+module.exports = assertObjectsEqual;

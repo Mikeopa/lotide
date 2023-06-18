@@ -26,9 +26,26 @@ This project was created and published by me as part of my learnings at Lighthou
 
 The following functions are currently implemented:
 
-* head(array): Prints the first element in an array
-* tail(array): Prints the tail elements of an array, slicing out the first element.
-* middle(array): Takes an array as input and returns the middle element(s) of the array
-* assertEqual(actual, expected): Provides a simple way to assert the equality of two values and provides clear feedback on whether the assertion passed or failed. 
-* assertArrayEqual(actual, expected): Provides a convenient way to assert the equality of two arrays and display feedback on the assertion result.
-* eqArrays(array1,array2): Provides a convenient way to compare the equality of two arrays by checking their lengths and the equality of corresponding elements.
+Lotide Directory: Functions from the Lotide directory.
+* Implemented Assert Equal: Function that checks if two values are equal and returns true if they are.
+* Improved Assert Equal function: Updated Assert Equal function using template literals.
+* Implemented Head: Function that retrieves the first element from an array.
+* Implemented Tail: Function that retrieves all elements of an array except the first one.
+* Implemented eqArrays: Function that compares two arrays and returns true if they are equal, false otherwise.
+* Implemented assertArraysEqual: Function that prints an appropriate message after comparing two arrays.
+* Implemented function: Function that filters out items from a source array based on an itemsToRemove array.
+* Implemented flatten function: Function that flattens an array containing nested elements.
+* Implemented middle function: Function that retrieves the middle-most element of an array.
+* Implemented countOnly function: Function that counts specific items in a collection.
+* Implemented countLetters function: Function that counts the occurrences of letters in a sentence.
+* Implemented letterPositions function: Function that returns the indices of letter positions in a string.
+* Implemented findKeyByValue function: Function that finds the first key corresponding to a given value in an object.
+* Implemented eqObjects function: Function that compares two objects and returns true if they are equal, false otherwise.
+* Implemented assertObjectsEqual function: Function that compares two objects and returns true if they are equal, false otherwise.
+* Implemented Map function: Function that applies a callback to each item in an array and returns a new array based on the results.
+* Implemented takeUntil function: Function that creates a slice of an array until a specified condition is met.
+* Implemented findKey function: Function that finds the first key in an object that satisfies a given condition.
+* Lotide Refactor Example: Refactored version of the assertEqual function for modularity.
+* Refactor Tail: Refactored version of the tail function for modularity.
+* Refactor eqArrays: Refactored version of the eqArrays function for modularity.
+* Refactor assertArraysEqual: Refactored version of the assertArraysEqual function for modularity.
